@@ -11,6 +11,7 @@ import cucumber.api.java.en.Then;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
+import task.productTask;
 import task.searchProductTask;
 import task.loginTask;
 
@@ -74,9 +75,9 @@ public class BuyProductStep {
     }
 
 
-    @And("^anade un producto con las caracteristicas (.+) y (.+)$")
-    public void anade_un_producto_con_las_caracteristicas() {
-
+    @And("^anade un producto con las caracteristicas de talla y color$")
+    public void anade_un_producto_con_las_caracteristicas_de_talla_y_color() {
+        theActorCalled("user").attemptsTo(productTask.chooseProduct());
     }
 
     @Then("^valida la orden de compra$")

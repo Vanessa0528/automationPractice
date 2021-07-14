@@ -9,13 +9,14 @@ Feature: SearchBook
      Given que el usuario ingresa a la pagina de YourLogo
      When ingresa sus credenciales <mail> y <password>
      And busca un producto con descuento del veinte porciento
-     And anade un producto con las caracteristicas <Size> y <Color>
-     Then valida la orden de compra
+     And anade un producto con las caracteristicas de talla y color
+     Then se muestra el mensaje <msg>
+     And valida la orden de compra
 
      Examples:
 
-       | mail                   | password |Size|Color|
-       | vaneatehortu@gmail.com | 300490   |L   |green|
+       | mail                   | password | msg                                             |
+       | vaneatehortu@gmail.com | 300490   | Product successfully added to your shopping cart|
 
 
 
