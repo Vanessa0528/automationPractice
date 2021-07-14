@@ -2,22 +2,27 @@ Introduction
 
 TODO: El test consta de un script
  
-El script desarrollado es alusivo a la  búsqueda de un libro en la página Librería Naciona, para lo
-cuál es necesario loguearse exitosamente en la página, buscar un libro, validar los resultados obtenidos
-y finalmente cerrar sesión.
+El script desarrollado es alusivo a la  búsqueda de un producto en la store YourLog, para la busqueda de dicho producto se deben seguir las seiguientes caracteristicas:
+Producto con un descuento del 20%
+La talla del producto debe ser L
+El color del producto debe ser verde
 
-El escenario desarrollado corresponde al escenario con loguin correcto y busqueda exitosa de un libro:
+para lo cuál es necesario loguearse exitosamente en la página, buscar el producto con los criterios especificados,validar el producto agregado al carrito 
+y finalmente validar la orden de compra.
 
-@LoginSuccessful
-   Scenario Outline: user search a book on search bar successful
-     Given that the user want do login in the application libreria nacional successful
-     When the user enter credentials <mail> y <password>
-     And the user search the <book>
-     Then validate that search throw results
-     And the user close session
+El escenario desarrollado corresponde al escenario con loguin correcto, busqueda y compra exitosa:
+
+   Scenario Outline: user makes the buy of a product
+     Given that the user enters to the page YourLogo
+     When enter your credentials <mail> y <password>
+     And search a product with twenty porcentage discount
+     And add a product with size and color characteristics
+     Then the message is displayed <msg>
+     And make the checkout
+     And validate the order buy <msgOrder> y <amount>
 
 Getting Started
-La entrega del proyecto "MobileTec" se realiza en formato ZIP
+La entrega del proyecto "automationTest" se realiza mediante la entrega del link del gitHub
 
 El proceso siguiente es abrir el IDE de Intellij IDEA Community edition
 Version: 2013-03-03
@@ -30,7 +35,7 @@ Validar estructura del proyecto al finalizar de importar las dependencias y grad
 
 
 
-Actions
+
 Questions
 Tasks
 UI
