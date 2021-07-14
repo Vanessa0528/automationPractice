@@ -9,11 +9,15 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+import static org.hamcrest.core.StringContains.containsString;
 
+import questions.messageAfterAddProduct;
 import task.productTask;
 import task.searchProductTask;
 import task.loginTask;
+import task.shoppingCartTask;
 
 
 public class BuyProductStep {
@@ -80,8 +84,24 @@ public class BuyProductStep {
         theActorCalled("user").attemptsTo(productTask.chooseProduct());
     }
 
-    @Then("^valida la orden de compra$")
-    public void valida_la_orden_de_compra() {
+    @Then("^se muestra el mensaje(.+)$")
+    public void se_muestra_el_mensaje_(String mesagge) {
+        theActorCalled("user").should(
+                seeThat(
+                        messageAfterAddProduct.value().answeredBy(theActorCalled("user")),
+                        messageAfterAddProduct.value(),
+                        containsString(mesagge.trim())
+                )
+        );
+    }
+
+    @And("^se realiza checkout$")
+    public void se_realiza_el_checkout() {
+        theActorCalled("user").attemptsTo(shoppingCartTask.proceedCheckout());
+    }
+
+    @And("^valida la orden de compra(.+)$")
+    public void valida_la_orden_de_compra(String cost) {
 
     }
 

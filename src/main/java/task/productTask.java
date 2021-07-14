@@ -17,7 +17,7 @@ public class productTask implements Task {
           actor.attemptsTo(Click.on(productUI.LIST_SIZE));
           actor.attemptsTo(Click.on(productUI.BUTTON_COLOR));
           actor.attemptsTo(Click.on(productUI.BUTTON_ADD_TO_CART));
-          actor.attemptsTo(Click.on(productUI.BUTTON_PROCEED_TO_CHECKOUT));
+
 
     }
 

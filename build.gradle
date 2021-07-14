@@ -35,6 +35,9 @@ dependencies {
     compile "net.serenity-bdd:serenity-screenplay-webdriver:$rootProject.ext.serenityVersion"
     //https://mvnrepository.com/artifact/org.testng/testng
     testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
+    // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-reports
+    //implementation group: 'net.serenity-bdd', name: 'serenity-reports', version: '2.4.38'
+
 
 
 

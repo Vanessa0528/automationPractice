@@ -11,12 +11,13 @@ Feature: SearchBook
      And busca un producto con descuento del veinte porciento
      And anade un producto con las caracteristicas de talla y color
      Then se muestra el mensaje <msg>
-     And valida la orden de compra
+     And se realiza checkout
+     And valida la orden de compra <amount>
 
      Examples:
 
-       | mail                   | password | msg                                             |
-       | vaneatehortu@gmail.com | 300490   | Product successfully added to your shopping cart|
+       | mail                   | password | msg                                            |amount|
+       | vaneatehortu@gmail.com | 300490   |Product successfully added to your shopping cart|$18.40|
 
 
 

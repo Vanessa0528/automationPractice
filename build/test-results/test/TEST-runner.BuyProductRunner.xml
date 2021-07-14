@@ -3,8 +3,8 @@
   <properties/>
   <system-out><![CDATA[
 1 Scenarios (?[32m1 passed?[0m)
-5 Steps (?[32m5 passed?[0m)
-0m17,161s
+7 Steps (?[32m7 passed?[0m)
+0m20,690s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
@@ -35,6 +35,6 @@
 
 TEST STARTED: usuario realiza compra de un producto
 -------------------------------------------------------------------(searchbook;usuario-realiza-compra-de-un-producto)
-[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example: {mail=vaneatehortu@gmail.com, password=300490}
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example: {mail=vaneatehortu@gmail.com, password=300490, msg=Product successfully added to your shopping cart}
 ]]></system-err>
 </testsuite>

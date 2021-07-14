@@ -9,5 +9,4 @@ public class productUI {
     public static final Target BUTTON_COLOR =Target.the("choose color").located(By.id("color_15"));
     public static final Target BUTTON_ADD_TO_CART = Target.the("add to cart").located(By.id("add_to_cart"));
     public static final Target MSG_PRODUCT_ADDED = Target.the("product added").located(By.xpath("//div[@Id='layer_cart']/div[1]/div[1]/h2[text()]"));
-    public static final Target BUTTON_PROCEED_TO_CHECKOUT = Target.the( "proceed to checkout").located(By.xpath("//*[@class='btn btn-default button button-medium']//*[contains(text(),'Proceed to checkout')]"));
 }
