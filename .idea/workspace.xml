@@ -2,43 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ad017b-2b9e-4990-a21d-2ee6e292e11c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/validateCompleteOrderQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/validateOrderQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SearchBook.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SearchBook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/runner.BuyProductRunner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/runner.BuyProductRunner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/runner.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/runner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/test/features/BuyProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/features/BuyProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SearchBook.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SearchBook.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-runner.BuyProductRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-runner.BuyProductRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/click.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/messageAfterAddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/messageAfterAddProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/searchBookQuestion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task/shoppingCartTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/shoppingCartTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/shoppingCartUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/shoppingCartUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinition/BuyProductStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinition/BuyProductStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BuyProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BuyProduct.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8ffe2f86373e796d0a7c3b498165079175803423e5fe392c7798595e22ed2726.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8ffe2f86373e796d0a7c3b498165079175803423e5fe392c7798595e22ed2726.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8ffe2f86373e796d0a7c3b498165079175803423e5fe392c7798595e22ed2726.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8ffe2f86373e796d0a7c3b498165079175803423e5fe392c7798595e22ed2726.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8ffe2f86373e796d0a7c3b498165079175803423e5fe392c7798595e22ed2726_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8ffe2f86373e796d0a7c3b498165079175803423e5fe392c7798595e22ed2726_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-8ffe2f86373e796d0a7c3b498165079175803423e5fe392c7798595e22ed2726.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-8ffe2f86373e796d0a7c3b498165079175803423e5fe392c7798595e22ed2726.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +63,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2359882" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunAnythingCache">
@@ -221,10 +193,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Project_Structure" timestamp="1626277262852">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1626279400766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1626277262852" />
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1626279400766" />
     <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1626233992642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -237,22 +209,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1626228406905" />
-    <state width="1323" height="143" key="GridCell.Tab.0.bottom" timestamp="1626278358963">
+    <state width="1323" height="364" key="GridCell.Tab.0.bottom" timestamp="1626279793031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="143" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626278358963" />
-    <state width="1323" height="143" key="GridCell.Tab.0.center" timestamp="1626278358963">
+    <state width="1323" height="364" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626279793031" />
+    <state width="1323" height="364" key="GridCell.Tab.0.center" timestamp="1626279793031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="143" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626278358963" />
-    <state width="1323" height="143" key="GridCell.Tab.0.left" timestamp="1626278358963">
+    <state width="1323" height="364" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626279793031" />
+    <state width="1323" height="364" key="GridCell.Tab.0.left" timestamp="1626279793031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="143" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626278358963" />
-    <state width="1323" height="143" key="GridCell.Tab.0.right" timestamp="1626278358963">
+    <state width="1323" height="364" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626279793031" />
+    <state width="1323" height="364" key="GridCell.Tab.0.right" timestamp="1626279793031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="143" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626278358963" />
+    <state width="1323" height="364" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626279793031" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626145943593">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
