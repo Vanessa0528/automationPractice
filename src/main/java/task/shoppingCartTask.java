@@ -31,6 +31,6 @@ public class shoppingCartTask implements Task {
 
     public static Performable proceedCheckout ( )
     {
-        return instrumented(searchProductTask.class);
+        return instrumented(shoppingCartTask.class);
     }
 }

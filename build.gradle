@@ -36,7 +36,7 @@ dependencies {
     //https://mvnrepository.com/artifact/org.testng/testng
     testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
     // https://mvnrepository.com/artifact/net.serenity-bdd/serenity-reports
-    //implementation group: 'net.serenity-bdd', name: 'serenity-reports', version: '2.4.38'
+    implementation group: 'net.serenity-bdd', name: 'serenity-reports', version: '2.0.60'
 
 
 

@@ -15,5 +15,6 @@ public class messageAfterAddProduct implements Question<String> {
         return  content.trim();
     }
 
-    public static Question<String> value() { return new messageAfterAddProduct(); }
+    public static Question<String> value()
+    { return new messageAfterAddProduct(); }
 }

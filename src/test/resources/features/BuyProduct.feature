@@ -5,19 +5,19 @@ Feature: SearchBook
 
 
   @LoginSuccessful
-   Scenario Outline: usuario realiza compra de un producto
-     Given que el usuario ingresa a la pagina de YourLogo
-     When ingresa sus credenciales <mail> y <password>
-     And busca un producto con descuento del veinte porciento
-     And anade un producto con las caracteristicas de talla y color
-     Then se muestra el mensaje <msg>
-     And se realiza checkout
-     And valida la orden de compra <amount>
+   Scenario Outline: user makes the buy of a product
+     Given that the user enters to the page YourLogo
+     When enter your credentials <mail> y <password>
+     And search a product with twenty porcentage discount
+     And add a product with size and color characteristics
+     Then the message is displayed <msg>
+     And make the checkout
+     And validate the order buy <msgOrder> y <amount>
 
      Examples:
 
-       | mail                   | password | msg                                            |amount|
-       | vaneatehortu@gmail.com | 300490   |Product successfully added to your shopping cart|$18.40|
+       | mail                   | password | msg                                            |msgOrder                           |amount|
+       | vaneatehortu@gmail.com | 300490   |Product successfully added to your shopping cart|Your order on My Store is complete.|$18.40|
 
 
 

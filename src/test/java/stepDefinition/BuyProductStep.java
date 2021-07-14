@@ -14,6 +14,8 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static org.hamcrest.core.StringContains.containsString;
 
 import questions.messageAfterAddProduct;
+import questions.validateCompleteOrderQuestion;
+import questions.validateOrderQuestion;
 import task.productTask;
 import task.searchProductTask;
 import task.loginTask;
@@ -29,63 +31,34 @@ public class BuyProductStep {
     }
 
 
-    /*@Given("^that the user want do login in the application libreria nacional successful$")
-    public void that_the_user_want_do_login_in_the_application_libreria_nacional_successful()
-    {
-        theActorCalled("user").attemptsTo(Open.url("https://librerianacional.com/"));
-    }
-
-
-    @When("^the user enter credentials (.+) y (.+)$")
-    public void the_user_enter_credentials_y(String mail, String password)  {
-        theActorCalled("user").attemptsTo(loginTask.Login(mail,password));
-    }
-
-    @When("^the user search the (.+)$")
-    public void the_user_search_the(String book) {
-        theActorCalled("user").attemptsTo(searchBookTask.search(book));
-    }
-
-
-    @Then("^validate that search throw results$")
-    public void validate_that_search_throw_results() {
-        theActorInTheSpotlight().should(GivenWhenThen.seeThat(searchBookQuestion.validateResults()));
-    }
-
-    @Then("^the user close session$")
-    public void the_user_close_session()
-    {
-        theActorCalled("user").attemptsTo(settingsAccountTask.closeSession());
-    }*/
-
-    @Given("^que el usuario ingresa a la pagina de YourLogo$")
-    public void que_el_usuario_ingresa_a_la_pagina_de_YourLogo() {
+    @Given("^that the user enters to the page YourLogo$")
+    public void that_the_user_enters_to_the_page_YourLogo() {
 
         theActorCalled("user").attemptsTo(Open.url("http://automationpractice.com/index.php"));
 
     }
 
 
-    @When("^ingresa sus credenciales (.+) y (.+)$")
-    public void ingresa_sus_credenciales(String mail,String password) {
+    @When("^enter your credentials (.+) y (.+)$")
+    public void enter_your_credentials(String mail,String password) {
         theActorCalled("user").attemptsTo(loginTask.Login(mail,password));
 
     }
 
 
-    @And("^busca un producto con descuento del veinte porciento$")
-    public void busca_un_producto_con_descuento_del_veinte_porciento() {
+    @And("^search a product with twenty porcentage discount$")
+    public void search_a_product_with_twenty_porcentage_discount() {
         theActorCalled("user").attemptsTo(searchProductTask.SelectProduct());
     }
 
 
-    @And("^anade un producto con las caracteristicas de talla y color$")
-    public void anade_un_producto_con_las_caracteristicas_de_talla_y_color() {
+    @And("^add a product with size and color characteristics$")
+    public void add_a_product_with_size_and_color_characteristics() {
         theActorCalled("user").attemptsTo(productTask.chooseProduct());
     }
 
-    @Then("^se muestra el mensaje(.+)$")
-    public void se_muestra_el_mensaje_(String mesagge) {
+    @Then("^the message is displayed(.+)$")
+    public void the_message_is_displayed(String mesagge) {
         theActorCalled("user").should(
                 seeThat(
                         messageAfterAddProduct.value().answeredBy(theActorCalled("user")),
@@ -95,13 +68,31 @@ public class BuyProductStep {
         );
     }
 
-    @And("^se realiza checkout$")
-    public void se_realiza_el_checkout() {
+    @And("^make the checkout$")
+    public void make_the_checkout() {
         theActorCalled("user").attemptsTo(shoppingCartTask.proceedCheckout());
     }
 
-    @And("^valida la orden de compra(.+)$")
-    public void valida_la_orden_de_compra(String cost) {
+    @And("^validate the order buy(.+) y (.+)$")
+    public void validate_the_order_buy(String msg,String cost) {
+
+        theActorCalled("user").should(
+                seeThat(
+                        validateCompleteOrderQuestion.value().answeredBy(theActorCalled("user")),
+                        validateCompleteOrderQuestion.value(),
+                        containsString(msg.trim())
+                )
+        );
+
+        theActorCalled("user").should(
+                seeThat(
+                        validateOrderQuestion.value().answeredBy(theActorCalled("user")),
+                        validateOrderQuestion.value(),
+                        containsString(cost.trim())
+                )
+        );
+
+
 
     }
 
